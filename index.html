@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = prompt("Write a string here :")
+        var totalT = 0;
+        var  totalP = 0;
+        for (i = 0; i <= a.length; i++){
+                   if (a[i] === "p" || a[i] === "P") {
+             totalP = totalP + 1;
+                console.log ("Total p's are :",totalP)
+
+            }
+                else if (a[i] === "t" || a[i] === "T") {
+                    totalT =totalT+1;
+                        console.log("Total t's are :",totalT)
+            }else
+            console.log ("T=",totalT,"p=",totalP)
+        }
+        console.log("The string is :",a)
+        console.log ("Total p's are :",totalP)
+        console.log ("Total t's are :",totalT)
+
+    </script>
+</body>
+
+</html>
